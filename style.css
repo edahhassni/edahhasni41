@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid-container
+{
+  width: 100%;
+  height: 100vb;
+  background-color: #aaa;
+}
+.container
+{
+  width: 99%;
+  height: 100vb;
+  margin: auto;
+  background-color: #f6f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  align-content: space-between;
+}
+.container > div
+{
+  width: calc(99% / 3);
+  height: 100px;
+  background-color: indianred;
+}
